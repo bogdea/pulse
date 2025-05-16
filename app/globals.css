@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+:root {
+  --rich-black: #0f0f0f;
+}
