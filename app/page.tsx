@@ -1,5 +1,11 @@
+import AuthSection from "@/components/AuthSection";
+
 const Home = () => {
-  return <h1>hello world</h1>;
+  return (
+    <div className="flex h-screen w-screen items-center justify-center">
+      <AuthSection />
+    </div>
+  );
 };
 
 export default Home;
