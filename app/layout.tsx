@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Outfit } from "next/font/google";
+import { Toaster } from "@/components/ui/sonner";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${outfit.className} bg-[var(--rich-black)]`}>
         {children}
+        <Toaster richColors />
       </body>
     </html>
   );
